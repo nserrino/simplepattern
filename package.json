@@ -1,0 +1,19 @@
+{
+  "name": "patterns",
+  "description": "Simple regex-abstracting utilities",
+  "keywords": [
+    "regex",
+    "pattern",
+    "utils"
+  ],
+  "author": {
+    "name": "nserrino"
+  },
+  "main": "utils.js",
+  "dependencies": {
+    "lodash": "2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "1.20.1"
+  }
+}
