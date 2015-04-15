@@ -6,39 +6,37 @@ Usage:
 Add easypattern to your package.json, and npm-install it.
 var pattern = require('easypattern');
 
-**contains(input, pattern)**
-
-*Arguments*
-
+**contains(input, pattern)**<br />
+*Arguments*<br />
 1.  input: the string we are evaluating for the pattern
 2.  pattern: the pattern we are looking for in 'input'
 
 pattern.contains("abc", "a") --> true
 
 
-**containsAllOf(input, patternsArray)**
-Same idea as 'contains', except with an array.
+**containsAllOf(input, patternsArray)**<br />
+Same idea as 'contains', except with an array.<br />
 pattern.containsAllOf("abc", ["a", "c"]) --> true
 
 
-**containsOneOf(input, patternsArray)**
-pattern.containsOneOf("abc", ["a", "d"]) --> true
+**containsOneOf(input, patternsArray)**<br />
+pattern.containsOneOf("abc", ["a", "d"]) --> true<br />
 pattern.containsOneOf("abc", ["1", "d"]) --> false
 
 
-**endsWith(input, pattern)**
+**endsWith(input, pattern)**<br />
 pattern.endsWith("abc", "c") --> true
 
 
-**endsWithOneOf(input, patternsArray)**
+**endsWithOneOf(input, patternsArray)**<br />
 pattern.endsWithOneOf("abc", ["c", "d"]) --> true
 
 
-**startsWith(input, pattern)**
+**startsWith(input, pattern)**<br />
 pattern.startsWith("abc", "a") --> true
 
 
-**startsWithOneOf(input, patternsArray)**
+**startsWithOneOf(input, patternsArray)**<br />
 pattern.startsWithOneOf("abc", ["a", "c"]) --> true
 
 
@@ -46,6 +44,6 @@ Running tests:
 --------------
 Navigate to the root directory for the library.
 
-npm install
+npm install<br />
 make test
 
