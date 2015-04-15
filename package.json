@@ -7,14 +7,24 @@
     "pattern",
     "utils"
   ],
-  "author": {
-    "name": "nserrino"
-  },
+  "author": "nserrino",
   "main": "utils.js",
   "dependencies": {
     "lodash": "2.3.0"
   },
   "devDependencies": {
     "mocha": "1.20.1"
-  }
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nserrino/easypattern.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nserrino/easypattern/issues"
+  },
+  "homepage": "https://github.com/nserrino/easypattern"
 }
