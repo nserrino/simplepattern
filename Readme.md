@@ -1,10 +1,10 @@
-*easypattern* is a simple regex-abstracting utilities library. Its purpose is to make
+*simplepattern* is a simple regex-abstracting utilities library. Its purpose is to make
 common regex-related operations more human readable.
 
 Usage:
 --------------
-Add easypattern to your package.json, and npm-install it.
-var pattern = require('easypattern');
+Add simplepattern to your package.json, and npm-install it.
+var pattern = require('simplepattern');
 
 **contains(input, pattern)**<br />
 *Arguments*<br />
